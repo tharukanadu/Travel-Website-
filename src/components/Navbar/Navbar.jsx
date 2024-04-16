@@ -19,7 +19,7 @@ const DropdownLink = [
         link:"/#location"
     },
 ]
-function Navbar() {
+function Navbar({ handleOrderPopup }) {
     const [showMenu,setShowMenu]=useState(false);
 
     const toggleMenu = ()=>{
@@ -84,7 +84,9 @@ function Navbar() {
             </div>
             {/* book now button */}
             <div className='flex items-center gap-4'>
-                <button className='px-3 py-1 text-white transition-all rounded-full bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:bg-gradient-to-r hover:bg-primary duration-600'>Book Now</button>
+                <button className='px-3 py-1 text-white transition-all rounded-full bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:bg-gradient-to-r hover:bg-primary duration-600' onClick={() => {
+                  handleOrderPopup();
+                }} >Book Now</button>
                 {/* Mobile Hamburger Menu */}
                 {/* <div className='block md:hidden'>
                     {showMenu?(
