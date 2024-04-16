@@ -5,6 +5,9 @@ import Places from '../components/Places/Places'
 import Banner from '../components/BannerImg/Banner'
 import bannerImd from '../assets/Banner/wommenbanner.avif'
 import Blog from './Blog'
+import BannerTwo from '../components/BannerImg/BannerTwo'
+// import Testimonial from '../components/Testimonial/Testimonial'
+
 
 function Home() {
   return (
@@ -19,6 +22,10 @@ function Home() {
       <Places/>
       <Banner img={bannerImd}/>
       <Blog/>
+      <BannerTwo/>
+     
+      {/* <Testimonial/> */}
+      
      </div>
     </div>
   )

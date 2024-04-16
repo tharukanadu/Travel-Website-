@@ -17,7 +17,7 @@ function App() {
      <Route path='/' element={<Layout/>}>
       <Route index element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
-      <Route path='/blog' element={<Blog/>}/>
+      <Route path='/blogs' element={<Blog/>}/>
       <Route path='/blog/:id' element={<BlogDetails/>}/>
       <Route path='/places' element={<PlaceRoute/>}/>
       <Route path='*' element={<NoPage/>}/>
