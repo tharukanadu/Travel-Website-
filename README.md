@@ -10,3 +10,5 @@
 website - [https://traval-tvc.netlify.app/](https://travel-website-ek.netlify.app/)
 
 Figma Pages - https://www.figma.com/file/CaBn5n8AK5ghdjZnAHyP6u/Travel-project?type=design&node-id=0%3A1&mode=design&t=bkuL8B6NBgFp36zq-1
+
+prototype - https://www.figma.com/proto/CaBn5n8AK5ghdjZnAHyP6u/Travel-project?type=design&node-id=3-2&t=8cyk1En3hGCPq2iS-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=3%3A2
