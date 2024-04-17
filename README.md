@@ -8,3 +8,4 @@
 
 
 website - https://traval-tvc.netlify.app/
+Figma Pages - https://www.figma.com/file/CaBn5n8AK5ghdjZnAHyP6u/Travel-project?type=design&node-id=0%3A1&mode=design&t=bkuL8B6NBgFp36zq-1
